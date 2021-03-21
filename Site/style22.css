@@ -1,0 +1,53 @@
+.page {
+	font-size: 25px;
+	font-family: PT Sans;
+	background: aliceblue;
+	margin: 3px;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.second-info {
+	font-size: 35xp;
+	background: url(images/bg3.jpg);
+	background-repeat: round;
+	background-size: cover;
+}
+
+.main-info {
+	font-size: 35xp;
+	background: url(images/first.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page main-info2 {
+	font-size: 35xp;
+	background: url(images/взб.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page > span {
+	background: #0ab6c7;
+	opacity: .6;
+	padding: 10px;
+	border-radius: 30px;
+}
+
+a {
+	text-decoration: none;
+	background: hotpink;
+	padding: 10px;
+	color: black;
+	font-weight: bold;
+	text-align: center;
+
+}
+
+a:hover {
+	background: pink;
+	font-weight: bolder;
+}
